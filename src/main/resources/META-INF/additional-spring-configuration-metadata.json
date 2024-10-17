@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "trapsender.destination.ip",
+    "type": "java.lang.String",
+    "description": "Destionation IP address to which traps are sent"
+  },
+  {
+    "name": "trapsender.destination.port",
+    "type": "java.lang.String",
+    "description": "Destination port to which traps are sent"
+  },
+  {
+    "name": "trapsender.enterprise",
+    "type": "java.lang.String",
+    "description": "Enterprise ID to be sent in traps, if not set default snmp4j value will be used"
+  },
+  {
+    "name": "trapsender.username",
+    "type": "java.lang.String",
+    "description": "User which is receiving traps"
+  },
+  {
+    "name": "trapsender.authprotocol",
+    "type": "java.lang.String",
+    "description": "Authentication protocol for the user (NONE, MD5, SHA)"
+  },
+  {
+    "name": "trapsender.authpassword",
+    "type": "java.lang.String",
+    "description": "Authentication password for the user"
+  },
+  {
+    "name": "trapsender.privprotocol",
+    "type": "java.lang.String",
+    "description": "Privacy protocol for the user (NONE, DES, AES)"
+  },
+  {
+    "name": "trapsender.privpassword",
+    "type": "java.lang.String",
+    "description": "Privacy password for the user"
+  },
+  {
+    "name": "trapsender.engineid",
+    "type": "java.lang.String",
+    "description": "Engine ID for the user"
+  },
+  {
+    "name": "trapsender.source.ip",
+    "type": "java.lang.String",
+    "description": "Source IP address from which traps are sent"
+  }
+]}
